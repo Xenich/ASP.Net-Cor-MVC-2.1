@@ -23,6 +23,8 @@ namespace ASPNET_Core_MVC_MODELS.Controllers
             return result;
         }      
         
+//**************************    Передача модели в представление     *******************************
+
             // Передача одиночной модели в представление
         public IActionResult SingleModel()          // View, соответствующее этому контроллеру - Home/SingleModel.cshtml
         {
@@ -111,6 +113,40 @@ namespace ASPNET_Core_MVC_MODELS.Controllers
             differentViewModels.Games = gameCollection;
 
             return View(differentViewModels);     // передаём ViewModels - коллекции моделей разных типов в представление (на сторону клиента) Views/Home/DifferentModelsCollection.cshtml
+        }
+
+//*************************     Передача данных в контроллер из представления       **********************************
+
+            // Форма из которой будет передаваться информация
+        public IActionResult FormDataFromViewToController()
+        {
+            return View();
+        }
+            // Варианты:
+            // 1) Передача данных в контроллер в виде набора полей
+            // названия принимаемых параметров должны совпадать с атрибутом name инпутов в html-форме в представлении
+        public string DataFromViewToControllerByFields(string name, string platform, string engine)
+        {
+            return $"Передано методом POST в виде набора полей в контроллер: Name: {name}, Platform: {platform}, Engine:{engine}";
+        }
+
+            // 2) Передача данных в контроллер в виде объекта
+            // названия принимаемых параметров должны совпадать с атрибутом name инпутов в html-форме в представлении
+        public string DataFromViewToControllerByObject(Game game)
+        {
+            return $"Передано методом POST в виде объекта в контроллер: Name: {game.Name}, Platform: {game.Platform}, Engine: {game.Engine}";
+        }
+
+            // 3) Передача данных в контроллер в виде набора объектов (например, массив)
+            // названия принимаемых параметров должны совпадать с атрибутом name инпутов в html-форме в представлении
+        public string DataFromViewToControllerByArrayOfObjects(Game[] games)     // контролер принимает массив объектов
+        {
+            string result= "Передано методом POST в виде массива объектов в контроллер:" + Environment.NewLine;
+            foreach (Game game in games)
+            {
+                result+= $"Name: {game.Name}, Platform: {game.Platform}, Engine: {game.Engine}" + Environment.NewLine;
+            }
+            return result;
         }
     }
 }

@@ -2877,6 +2877,11 @@
   "RootNamespace": "ASPNET_Core_MVC_MODELS",
   "Documents": [
     {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Shared\\_MyLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_MyLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -2904,6 +2909,11 @@
     {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\FormDataFromViewToController.cshtml",
+      "TargetPath": "Views\\Home\\FormDataFromViewToController.cshtml",
       "FileKind": "mvc"
     },
     {
