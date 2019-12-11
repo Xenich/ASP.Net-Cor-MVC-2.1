@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ASPNET_Core_MVC_MODELS.Services;                  // пространство имён с сервисами
 
 namespace ASPNET_Core_MVC_MODELS
 {
@@ -31,7 +32,7 @@ namespace ASPNET_Core_MVC_MODELS
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddTransient<MyService>();         // подключаем самописный сервис
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

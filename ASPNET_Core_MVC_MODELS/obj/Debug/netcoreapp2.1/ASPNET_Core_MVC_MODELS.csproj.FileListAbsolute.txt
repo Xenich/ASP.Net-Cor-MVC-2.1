@@ -34,3 +34,4 @@ D:\Projects\GoogleDrive\Programming\C#\ASPNet\ASPNET_Core_MVC_MODELS\ASPNET_Core
 D:\Projects\GoogleDrive\Programming\C#\ASPNet\ASPNET_Core_MVC_MODELS\ASPNET_Core_MVC_MODELS\obj\Debug\netcoreapp2.1\Razor\Views\Home\DifferentModelsCollection.cshtml.g.cs
 D:\Projects\GoogleDrive\Programming\C#\ASPNet\ASPNET_Core_MVC_MODELS\ASPNET_Core_MVC_MODELS\obj\Debug\netcoreapp2.1\Razor\Views\Home\FormDataFromViewToController.cshtml.g.cs
 D:\Projects\GoogleDrive\Programming\C#\ASPNet\ASPNET_Core_MVC_MODELS\ASPNET_Core_MVC_MODELS\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.cshtml.g.cs
+D:\Projects\GoogleDrive\Programming\C#\ASPNet\ASPNET_Core_MVC_MODELS\ASPNET_Core_MVC_MODELS\obj\Debug\netcoreapp2.1\Razor\Views\Home\DependencyInjection.cshtml.g.cs

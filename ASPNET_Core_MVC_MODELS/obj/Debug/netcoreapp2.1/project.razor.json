@@ -2907,6 +2907,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\DependencyInjection.cshtml",
+      "TargetPath": "Views\\Home\\DependencyInjection.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

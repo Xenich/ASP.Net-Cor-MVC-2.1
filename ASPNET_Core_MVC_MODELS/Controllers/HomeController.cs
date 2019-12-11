@@ -122,7 +122,7 @@ namespace ASPNET_Core_MVC_MODELS.Controllers
         {
             return View();
         }
-            // Варианты:
+     // Варианты:
             // 1) Передача данных в контроллер в виде набора полей
             // названия принимаемых параметров должны совпадать с атрибутом name инпутов в html-форме в представлении
         public string DataFromViewToControllerByFields(string name, string platform, string engine)
@@ -147,6 +147,13 @@ namespace ASPNET_Core_MVC_MODELS.Controllers
                 result+= $"Name: {game.Name}, Platform: {game.Platform}, Engine: {game.Engine}" + Environment.NewLine;
             }
             return result;
+        }
+
+//*************************     Depenndency injection (внедрение зависимостей)      *************************************
+        // подключение на html страницу определённых сервисов, которые выводят на страницу результат своей работы
+        public IActionResult DependencyInjection()
+        {
+            return View();              // вьюха с использованием сервиса
         }
     }
 }
