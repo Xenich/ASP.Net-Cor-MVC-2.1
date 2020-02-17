@@ -62,7 +62,7 @@ using ASPNET_Core_MVC_MODELS.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 169, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9405e514d8b461cb58bc02ecb48a09d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79066555b2ab4e36b5c93d4bb187b0ce", async() => {
                 BeginContext(31, 43, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <title>");
                 EndContext();
@@ -102,12 +102,12 @@ WriteAttributeValue("", 114, Url.Content("~/Content/Site.css"), 114, 34, false);
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(198, 743, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16925b30bb124644a0365556d74aa9c2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3da91ca634f949538cd29f3d0a521c45", async() => {
                 BeginContext(204, 99, true);
                 WriteLiteral("\r\n    <div class=\"navbar-collapse collapse\">\r\n        <ul class=\"nav navbar-nav\">\r\n            <li>");
                 EndContext();
                 BeginContext(303, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "010e1cedf7d04675843b599c4fe0bac2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8a40756738647ecb306693276c7bc3a", async() => {
                     BeginContext(359, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -133,7 +133,7 @@ WriteAttributeValue("", 114, Url.Content("~/Content/Site.css"), 114, 34, false);
                 WriteLiteral("</li>\r\n            <li>");
                 EndContext();
                 BeginContext(390, 77, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50b7403b43cb4bcf852c231d3e0a18fb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2617d7bce84c4f5ca4a5452503f77261", async() => {
                     BeginContext(452, 11, true);
                     WriteLiteral("SingleModel");
                     EndContext();
@@ -159,7 +159,7 @@ WriteAttributeValue("", 114, Url.Content("~/Content/Site.css"), 114, 34, false);
                 WriteLiteral("</li>\r\n            <li>");
                 EndContext();
                 BeginContext(490, 85, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41f1064fb2b14668ba372eb19efd7d50", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "287b67d58b394c339931014df9fb71c6", async() => {
                     BeginContext(556, 15, true);
                     WriteLiteral("CollectionModel");
                     EndContext();
@@ -185,7 +185,7 @@ WriteAttributeValue("", 114, Url.Content("~/Content/Site.css"), 114, 34, false);
                 WriteLiteral("</li>\r\n            <li>");
                 EndContext();
                 BeginContext(598, 105, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cde39e11fac94401a7d1c13df940bb41", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d65f43ad5a441459fa1e667c2bd8702", async() => {
                     BeginContext(674, 25, true);
                     WriteLiteral("DifferentModelsCollection");
                     EndContext();
@@ -211,7 +211,7 @@ WriteAttributeValue("", 114, Url.Content("~/Content/Site.css"), 114, 34, false);
                 WriteLiteral("</li>\r\n            <li style=\"max-width:200px\">");
                 EndContext();
                 BeginContext(750, 131, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "05a7be99909c4872bcbc8cbbd8ffe7f8", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "870645b59b9f442da221fb7679abeece", async() => {
                     BeginContext(829, 48, true);
                     WriteLiteral("Передача данных в контроллер в виде набора полей");
                     EndContext();

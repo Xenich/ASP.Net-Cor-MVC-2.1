@@ -31,11 +31,17 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li style="max-width:150px"><a asp-area="" asp-controller="Home" asp-action="Myattribute">Переопределение имени метода аттрибутом</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="SingleModel">SingleModel</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="CollectionModel">CollectionModel</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="DifferentModelsCollection">DifferentModelsCollection</a></li>
-                    <li style="max-width:200px"><a asp-area="" asp-controller="Home" asp-action="FormDataFromViewToController">Передача данных в контроллер в виде набора полей</a></li>
+                    <li style="max-width:200px"><a asp-area="" asp-controller="Home" asp-action="FormDataFromViewToController">Передача данных в контроллер различными способами</a></li>
                     <li style="max-width:200px"><a asp-area="" asp-controller="Home" asp-action="DependencyInjection">Внедрение зависимости (сервиса)</a></li>
+                    <li style="max-width:200px"><a asp-area="" asp-controller="HtmlHelper" asp-action="Index">HTML-хелперы</a></li>
+                    <li style="max-width:200px"><a asp-area="" asp-controller="Home" asp-action="CreateUser">Создать юзера</a></li>
+                    <li style="max-width:200px"><a asp-area="" asp-controller="Filtration" asp-action="GetUsers">Список юзеров с фильтрацей</a></li>
+                    <li style="max-width:200px"><a asp-area="" asp-controller="Pagination" asp-action="Index">Список юзеров с пагинацией</a></li>
+                    <li style="max-width:200px"><a asp-area="" asp-controller="RequestToWebApi" asp-action="Index">RequestToWebApi</a></li>
                 </ul>
             </div>
         </div>

@@ -62,7 +62,7 @@ using ASPNET_Core_MVC_MODELS.ViewModels;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(453, 159, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44639914db7a4d8189af65eb134b4e07", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5d65c34945e54bbea043c04ab71f1b5d", async() => {
                 BeginContext(459, 146, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>ИГРЫ И КОМПАНИИ</title>\r\n");
                 EndContext();
@@ -82,7 +82,7 @@ using ASPNET_Core_MVC_MODELS.ViewModels;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(616, 582, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "82d32979d43d4698a7f193d311d52cb1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a4f6eac012a4edbb929ccabb7cef0b6", async() => {
                 BeginContext(622, 33, true);
                 WriteLiteral("\r\n    <h2>Игры</h2><br /><br />\r\n");
                 EndContext();

@@ -2872,18 +2872,43 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 703
+    "CSharpLanguageVersion": 800
   },
   "RootNamespace": "ASPNET_Core_MVC_MODELS",
   "Documents": [
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\RequestToWebApi\\Index.cshtml",
+      "TargetPath": "Views\\RequestToWebApi\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\RequestToWebApi\\AddAdvokate.cshtml",
+      "TargetPath": "Views\\RequestToWebApi\\AddAdvokate.cshtml",
+      "FileKind": "mvc"
+    },
     {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Shared\\_MyLayout.cshtml",
       "TargetPath": "Views\\Shared\\_MyLayout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\HtmlHelper\\HTMLHelperSelect.cshtml",
+      "TargetPath": "Views\\HtmlHelper\\HTMLHelperSelect.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\HtmlHelper\\SimpleHTMLHelperForm.cshtml",
+      "TargetPath": "Views\\HtmlHelper\\SimpleHTMLHelperForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Pagination\\Index.cshtml",
+      "TargetPath": "Views\\Pagination\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2894,6 +2919,11 @@
     {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\HtmlHelper\\HTMLHelpersFOR.cshtml",
+      "TargetPath": "Views\\HtmlHelper\\HTMLHelpersFOR.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2917,13 +2947,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\RequestToWebApi\\GetAdvokateList.cshtml",
+      "TargetPath": "Views\\RequestToWebApi\\GetAdvokateList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\FormDataFromViewToController.cshtml",
       "TargetPath": "Views\\Home\\FormDataFromViewToController.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Filtration\\GetUsers.cshtml",
+      "TargetPath": "Views\\Filtration\\GetUsers.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\CollectionModel.cshtml",
       "TargetPath": "Views\\Home\\CollectionModel.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\RequestToWebApi\\UploadFile.cshtml",
+      "TargetPath": "Views\\RequestToWebApi\\UploadFile.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2934,6 +2979,16 @@
     {
       "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\DifferentModelsCollection.cshtml",
       "TargetPath": "Views\\Home\\DifferentModelsCollection.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\Home\\CreateUser.cshtml",
+      "TargetPath": "Views\\Home\\CreateUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\GoogleDrive\\Programming\\C#\\ASPNet\\ASPNET_Core_MVC_MODELS\\ASPNET_Core_MVC_MODELS\\Views\\HtmlHelper\\Index.cshtml",
+      "TargetPath": "Views\\HtmlHelper\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
